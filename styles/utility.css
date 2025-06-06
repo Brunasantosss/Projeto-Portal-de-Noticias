@@ -39,10 +39,6 @@ h1 h2 h3{
     font: inherit;
 }
 
-img{
-    max-width: 100%;
-}
-
 .grid{
     display: flex;
 }
@@ -57,7 +53,10 @@ img{
     margin-inline: auto;
 }
 
-main{
-    margin-top: 40px;
-    
+.grid-cols-2{
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+    gap: 16px;
 }
